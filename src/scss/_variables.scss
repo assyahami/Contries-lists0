@@ -1,0 +1,29 @@
+$brand: #073a8d;
+
+$primary: #332e3c;
+$secondary: #f1dede;
+$success: #198754;
+$danger: #dc3545;
+$warning: #ffc107;
+$light: #f8f9fa;
+$dark: #212529;
+
+$body-color: #000000;
+$headings-color: #000000;
+$text-muted: #000000;
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "danger": $danger,
+  "warning": $warning,
+  "light": $light,
+  "dark": $dark,
+  "brand": $brand,
+);
+
+$font-family-base: "Poppins", sans-serif;
+
+$spacer: 1rem;
+
+$btn-border-radius: 12px;
