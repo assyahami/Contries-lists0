@@ -2,9 +2,9 @@ import React from "react";
 import CountryCard from "../components/Cards";
 import Layout from "../layout/Layout";
 import { useDispatch, useSelector } from "react-redux"
-import { getCountries } from "../redux/slice/Country.slice";
+import { getCountries } from "../redux/slice/country.slice";
 import type { AppDispatch, RootState } from "../redux/store";
-import type { CountryResponse } from "../types/Country.Types";
+import type { CountryResponse } from "../types/country.types";
 import Loading from "../components/Spinner";
 
 const CountriesList = () => {

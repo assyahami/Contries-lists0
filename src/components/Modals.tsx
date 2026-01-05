@@ -1,5 +1,5 @@
 import Modal from 'react-bootstrap/Modal';
-import type { CountryResponse } from '../types/Country.Types';
+import type { CountryResponse } from '../types/country.types';
 import CountryCard from './Cards';
 import { getCountryName } from '../utils/countryHelper';
 

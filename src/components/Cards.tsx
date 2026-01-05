@@ -2,7 +2,7 @@ import { Card, Button, Badge, Stack } from 'react-bootstrap';
 import { FaTreeCity } from "react-icons/fa6";
 import { TbPhoneCalling } from "react-icons/tb";
 import { GiWorld } from "react-icons/gi";
-import type { CountryResponse } from '../types/Country.Types';
+import type { CountryResponse } from '../types/country.types';
 import { useState } from 'react';
 import AppModal from './Modals';
 import { getCallingCode, getCapital, getCountryName, getFLag } from '../utils/countryHelper';

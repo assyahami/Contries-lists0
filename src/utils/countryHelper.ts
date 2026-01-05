@@ -1,4 +1,4 @@
-import type { CountryResponse } from "../types/Country.Types";
+import type { CountryResponse } from "../types/country.types";
 
 export const getCountryName = (c: CountryResponse) =>
     c.name.common;

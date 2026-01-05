@@ -2,7 +2,7 @@ import { Form, InputGroup, Navbar, Container, Image } from 'react-bootstrap';
 import Logo from '../assets/logo-world.png';
 import { useDispatch } from 'react-redux';
 import type { AppDispatch } from '../redux/store';
-import { getCountries, searchContries } from '../redux/slice/Country.slice';
+import { getCountries, searchContries } from '../redux/slice/country.slice';
 function Header() {
     const dispatch = useDispatch<AppDispatch>();
 

@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { handleApiError } from "../../utils/errorHandler";
 import { APIRequest } from "../../utils/apiServices";
-import type { CountryResponse } from "../../types/Country.Types";
+import type { CountryResponse } from "../../types/country.types";
 
 interface CountryState {
     countries: CountryResponse[];
